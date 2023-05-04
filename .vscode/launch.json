@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "C:\Users\milon\Desktop\Trabajos INACAP 2023\Programacion Front End\ProyectoFullBodyFit",
             "webRoot": "${workspaceFolder}"
         }
     ]
