@@ -4,3 +4,52 @@ body {
 h1 {
     font-size: 300%;
 }
+
+.topepagina{
+    position:relative;
+z-index:4;
+font-size:18px;
+background-color:white;
+color:#282A35;
+padding-left:12px;
+padding-right:16px;
+font-family:'Source Sans Pro', sans-serif;
+}
+.margenmenu{
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding-left: 100px;
+}
+.menuacciones{
+    position: fixed;    
+}
+header{
+    background: #ffffb3;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav{
+    float: left;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    margin: 0 auto;
+    font-size: 16px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: bisque;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #282A35 ;
+}
