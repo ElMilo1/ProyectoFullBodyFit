@@ -7,13 +7,13 @@ h1 {
 
 .topepagina{
     position:relative;
-z-index:4;
-font-size:18px;
-background-color:white;
-color:#282A35;
-padding-left:12px;
-padding-right:16px;
-font-family:'Source Sans Pro', sans-serif;
+    z-index:4;
+    font-size:18px;
+    background-color:white;
+    color:#282A35;
+    padding-left:12px;
+    padding-right:16px;
+    font-family:'Source Sans Pro', sans-serif;
 }
 .margenmenu{
     margin-top: 50px;
@@ -29,27 +29,81 @@ header{
     background: #ffffb3;
     width: 100%;
     position: fixed;
-    z-index: 100;
+    z-index: 20;
+    text-align: center;
 }
 nav{
     float: left;
     margin: 0 auto;
+    text-align: center;
 }
 nav ul{
     list-style: none;
     overflow: hidden;
+    text-align: center;
 }
 nav ul li{
     float: left;
     margin: 0 auto;
     font-size: 16px;
+    text-align: center;
 }
 nav ul li a{
     display: block;
     padding: 10px;
-    color: bisque;
+    color: rgb(82, 82, 82);
     text-decoration: none;
+    text-align: center;
 }
 nav ul li:hover{
-    background: #282A35 ;
+    background: #e18c04 ;
+    text-align: center;
+}
+section {
+    height: 300px;
+    display: block;
+    justify-content: left;
+    scroll-behavior: smooth;
+}
+h2{
+    text-align: block;
+    display: block;
+}
+p{
+    display: block;
+}
+.seccion1{
+    text-align: right;
+}
+.seccion2{
+    text-align: left;
+}
+.divimagen1{
+    text-align: left;
+}
+.divimagen2{
+    text-align: right;
+}
+.p1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 50%;
+    float: right;
+}
+.p2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 50%;
+    float: left;
+}
+h2{
+    font-size: 200%;
+    border-bottom-style: solid ;
+    border-color: black;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
